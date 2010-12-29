@@ -1,0 +1,70 @@
+8
+
+dir
+15
+http://svn.assembla.com/svn/zhrits/phptrunk/app/views
+http://svn.assembla.com/svn/zhrits
+
+
+
+2008-10-11T20:31:28.004630Z
+8
+iyanski
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e0e46c49-be69-4f5a-ad62-21024a331aea
+
+gallery
+dir
+
+profile
+dir
+
+article
+dir
+
+feed
+dir
+
+comments
+dir
+
+home
+dir
+
+design
+dir
+
+shirt
+dir
+
+account
+dir
+
+index.php
+file
+
+
+
+
+2009-09-13T12:09:16.000000Z
+7a95e89290f02e79950089fa36660021
+2008-10-10T07:37:57.626225Z
+4
+iyanski
+
+user
+dir
+

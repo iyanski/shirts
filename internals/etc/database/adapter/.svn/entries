@@ -1,0 +1,40 @@
+8
+
+dir
+15
+http://svn.assembla.com/svn/zhrits/phptrunk/internals/etc/database/adapter
+http://svn.assembla.com/svn/zhrits
+
+
+
+2008-10-10T07:37:57.626225Z
+4
+iyanski
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e0e46c49-be69-4f5a-ad62-21024a331aea
+
+mysql.class.php
+file
+
+
+
+
+2009-09-13T12:09:08.000000Z
+4a0c704d6da77af981e53a97cd390c20
+2008-10-10T07:37:57.626225Z
+4
+iyanski
+

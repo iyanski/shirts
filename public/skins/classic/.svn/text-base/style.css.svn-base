@@ -1,0 +1,63 @@
+body {
+	color: #000;
+	font-size: 15px;
+	font-family: "Arial";
+	background-color: #f2f1f1;
+}
+.row0 {
+	background-color: #D1CBB5;
+}
+.row1 {
+	background-color: #ccc;
+}
+table {
+	width: 100%;
+}
+th {
+	background-color: #999;
+}
+td, th {
+	padding: 5px;
+}
+ul {
+	margin-left: 0px;
+	border-left:0px;
+	padding-left: 0px;
+}
+a {
+	text-decoration:none;
+}
+fieldset {
+	margin-top: 1px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #d4d5d5;
+	border: 0px;
+}
+input {
+	padding: 7px;
+	margin: 7px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	color: #000;
+}
+textarea {
+	padding: 7px;
+	margin: 7px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	color: #000;
+}
+div.list_container {
+	width: 980px;
+	text-align: left;
+}
+div.data_row {
+	clear:both;
+	margin: 7px;
+	padding: 7px;
+}
+div.data_label {
+	float:left;
+	width: 100px;
+}

@@ -1,0 +1,27 @@
+div.header{	background-color: #f2f1f1;	height: 108px;	color: #fff; width: 980px;}
+div.topline { background-image:url(images/topline.jpg); background-repeat: repeat-x; height: 6px; }
+div.logo { background-image:url(images/logo.gif); background-repeat: no-repeat; width: 484px; height: 78px;}
+div.list_container{	width: 980px;	text-align: left;}
+div.topmenu_outer { height: 50px; }
+div.topmenu_inner{ height: 50px; width: 980px; }
+div.topmenu { float:left; padding:6px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px; color: #fff; background-color:#3a3a3a; margin-top:4px;}
+ul.topmenu li { display: inline; text-transform:none; padding:6px; margin-top:4px; background-color:#3a3a3a;  float:right; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px; color: #fff;}
+a.topmenu { font-size: 10px; color: #fff; text-decoration: none; }
+a.topmenu:hover { color: #5ce8eb;}
+.menu { height: 57px; background-color:#6b6a6a;}
+.menu ul { list-style-type:none;   }
+.menu li {
+	display: inline; 	
+	font-size: 22px;
+	font-family: “Trebuchet MS”, Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	text-transform: normal;
+	letter-spacing: -0.1;
+	line-height: 1.8em; }
+.menu ul li a {float:left; width:139px; height:57px;  text-decoration:none; color:#ffffff; background-color: #6b6a6a;}
+.menu ul li a:active {color: #5ce8eb; background-image:url(images/button_over.jpg);  }
+.menu ul li a:hover {color: #5ce8eb; background-image:url(images/button_over.jpg);  }
+div.follow{	background-color: #ccc;	padding: 10px;	margin-top: 10px;	width: 80px;	text-align: center; }
+div.response{ padding:7px;}
+div.design_entry{	float:left;	text-align:center;	margin:10px;}

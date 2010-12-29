@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/zhrits/!svn/ver/15/phptrunk
+END
+schema
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/zhrits/!svn/ver/4/phptrunk/schema
+END
+partial.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/zhrits/!svn/ver/7/phptrunk/partial.php
+END
+phpinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/zhrits/!svn/ver/4/phptrunk/phpinfo.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/zhrits/!svn/ver/4/phptrunk/.htaccess
+END
+404.php
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/zhrits/!svn/ver/4/phptrunk/404.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/zhrits/!svn/ver/4/phptrunk/README
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/zhrits/!svn/ver/6/phptrunk/index.php
+END

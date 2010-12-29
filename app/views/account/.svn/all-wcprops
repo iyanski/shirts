@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/zhrits/!svn/ver/7/phptrunk/app/views/account
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/zhrits/!svn/ver/4/phptrunk/app/views/account/view.php
+END
+modify_design.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/zhrits/!svn/ver/6/phptrunk/app/views/account/modify_design.php
+END
+create.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/zhrits/!svn/ver/4/phptrunk/app/views/account/create.php
+END
+submit.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/zhrits/!svn/ver/6/phptrunk/app/views/account/submit.php
+END
+home.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/zhrits/!svn/ver/7/phptrunk/app/views/account/home.php
+END

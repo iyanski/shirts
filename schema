@@ -1,0 +1,190 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.1
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: Oct 10, 2008 at 07:35 AM
+-- Server version: 5.0.45
+-- PHP Version: 5.2.5
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- Database: `zhrits`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `accounts`
+-- 
+
+DROP TABLE IF EXISTS `accounts`;
+CREATE TABLE `accounts` (
+  `id` int(11) NOT NULL auto_increment,
+  `user_id` int(11) NOT NULL,
+  `first_name` varchar(255) default NULL,
+  `last_name` varchar(255) default NULL,
+  `alias` varchar(255) default NULL,
+  `url` varchar(100) default NULL,
+  `created_at` datetime default NULL,
+  `updated_at` datetime default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+-- 
+-- Dumping data for table `accounts`
+-- 
+
+INSERT INTO `accounts` (`id`, `user_id`, `first_name`, `last_name`, `alias`, `url`, `created_at`, `updated_at`) VALUES 
+(1, 1, 'ian', 'tusilsdsadf', 'asdf', 'http://www.yahoo.coms', '2008-10-08 09:41:24', '2008-10-08 09:41:24'),
+(2, 0, NULL, NULL, NULL, NULL, '2008-10-08 09:58:59', '2008-10-08 09:58:59');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `articles`
+-- 
+
+DROP TABLE IF EXISTS `articles`;
+CREATE TABLE `articles` (
+  `id` int(11) NOT NULL auto_increment,
+  `author_id` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `description` text NOT NULL,
+  `body` text NOT NULL,
+  `created_at` date NOT NULL,
+  `updated_at` date NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+-- 
+-- Dumping data for table `articles`
+-- 
+
+INSERT INTO `articles` (`id`, `author_id`, `title`, `description`, `body`, `created_at`, `updated_at`) VALUES 
+(1, 0, 'About', 'About Page', 'Zhrits is about blah blah blah.', '2008-10-08', '2008-10-08'),
+(2, 0, 'Help', 'Help Page', 'May day! May day! I need help!', '2008-10-08', '2008-10-08');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `comments`
+-- 
+
+DROP TABLE IF EXISTS `comments`;
+CREATE TABLE `comments` (
+  `id` int(11) NOT NULL auto_increment,
+  `account_id` int(11) NOT NULL,
+  `design_id` int(11) NOT NULL,
+  `comment` varchar(255) NOT NULL,
+  `created_at` datetime NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+-- 
+-- Dumping data for table `comments`
+-- 
+
+INSERT INTO `comments` (`id`, `account_id`, `design_id`, `comment`, `created_at`) VALUES 
+(1, 1, 0, 'asdasdasd', '2008-10-09 02:15:16'),
+(2, 1, 1, 'asdfasdfasd', '2008-10-09 17:25:10');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `designs`
+-- 
+
+DROP TABLE IF EXISTS `designs`;
+CREATE TABLE `designs` (
+  `id` int(11) NOT NULL auto_increment,
+  `account_id` int(11) NOT NULL,
+  `image` varchar(100) NOT NULL,
+  `title` varchar(255) default NULL,
+  `description` text,
+  `buzz` int(11) default NULL,
+  `views` int(11) default NULL,
+  `created_at` datetime default NULL,
+  `updated_at` datetime default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+-- 
+-- Dumping data for table `designs`
+-- 
+
+INSERT INTO `designs` (`id`, `account_id`, `image`, `title`, `description`, `buzz`, `views`, `created_at`, `updated_at`) VALUES 
+(1, 1, '58a993935547cf0810def519fc7f5043.jpg', 'asdf', 'asdf', NULL, NULL, '2008-10-08 00:00:00', '2008-10-08 00:00:00'),
+(2, 1, '95936e57f17582c792963bc82735128e.jpg', 'asd', 'fasdf', NULL, NULL, '2008-10-08 00:00:00', '2008-10-08 00:00:00'),
+(3, 1, '9d748c456b72031c56899ce8af7a1285.jpg', 'asd', 'fasdf', NULL, NULL, '2008-10-08 00:00:00', '2008-10-08 00:00:00'),
+(4, 1, '7fd491f8338b7d46d8d0228aad530073.jpg', 'asdfasdf', 'asdf', NULL, NULL, '2008-10-08 00:00:00', '2008-10-08 00:00:00'),
+(5, 1, 'a0b713190789bc3af1f2e2c1224fed36.jpg', 'asdfasd', 'fasdfasdf', NULL, NULL, '2008-10-08 00:00:00', '2008-10-08 00:00:00'),
+(6, 1, 'b926b309be11376d255585d25a46476c.jpg', 'asdf', 'asdfasdfasdf', NULL, NULL, '2008-10-08 00:00:00', '2008-10-08 00:00:00');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `follows`
+-- 
+
+DROP TABLE IF EXISTS `follows`;
+CREATE TABLE `follows` (
+  `id` int(11) NOT NULL auto_increment,
+  `following` int(11) default NULL,
+  `created_at` datetime default NULL,
+  `updated_at` datetime default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `follows`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `shirts`
+-- 
+
+DROP TABLE IF EXISTS `shirts`;
+CREATE TABLE `shirts` (
+  `id` int(11) NOT NULL auto_increment,
+  `account_id` int(11) NOT NULL,
+  `price` float default NULL,
+  `promo_price` float default NULL,
+  `created_at` datetime default NULL,
+  `updated_at` datetime default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `shirts`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `users`
+-- 
+
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL auto_increment,
+  `login` varchar(255) default NULL,
+  `email` varchar(255) default NULL,
+  `password` varchar(40) default NULL,
+  `created_at` datetime default NULL,
+  `updated_at` datetime default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+
+-- 
+-- Dumping data for table `users`
+-- 
+
+INSERT INTO `users` (`id`, `login`, `email`, `password`, `created_at`, `updated_at`) VALUES 
+(1, 'ian', 'iyanski@yahoo.com', 'a71a448d3d8474653e831749b8e71fcc', '2008-10-08 13:19:31', '2008-10-08 13:19:31'),
+(5, 'iyanski', 'iyanski@yahoo.com', '6a204bd89f3c8348afd5c77c717a097a', NULL, NULL);

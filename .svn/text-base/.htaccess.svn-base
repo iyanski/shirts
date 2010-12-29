@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond $1 !^(app|cladgets|config|externals|internals|public|404\.php|partial\.php|index\.php) [NC]
+RewriteRule ^(.*)/(.*)/$ index.php?controller=$1&action=$2 [L]
+RewriteRule ^(.*)/(.*)/id=(.*)$ index.php?controller=$1&action=$2&id=$3 [L]

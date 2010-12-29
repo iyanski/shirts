@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/zhrits/!svn/ver/7/phptrunk/app/models
+END
+Design.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/zhrits/!svn/ver/5/phptrunk/app/models/Design.php
+END
+Shirt.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/zhrits/!svn/ver/4/phptrunk/app/models/Shirt.php
+END
+Account.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/zhrits/!svn/ver/4/phptrunk/app/models/Account.php
+END
+User.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/zhrits/!svn/ver/4/phptrunk/app/models/User.php
+END
+Test.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/zhrits/!svn/ver/4/phptrunk/app/models/Test.php
+END
+Comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/zhrits/!svn/ver/4/phptrunk/app/models/Comment.php
+END
+Follow.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/zhrits/!svn/ver/7/phptrunk/app/models/Follow.php
+END
+Article.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/zhrits/!svn/ver/4/phptrunk/app/models/Article.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/zhrits/!svn/ver/4/phptrunk/app/models/index.php
+END

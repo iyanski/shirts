@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/zhrits/!svn/ver/5/phptrunk/internals
+END
+Mailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/zhrits/!svn/ver/4/phptrunk/internals/Mailer.php
+END
+ActiveRecord.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/zhrits/!svn/ver/5/phptrunk/internals/ActiveRecord.php
+END
+ApplicationBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/zhrits/!svn/ver/4/phptrunk/internals/ApplicationBase.php
+END
+Session.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/zhrits/!svn/ver/4/phptrunk/internals/Session.php
+END
+Database.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/zhrits/!svn/ver/4/phptrunk/internals/Database.php
+END
+Validators.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/zhrits/!svn/ver/4/phptrunk/internals/Validators.php
+END
+functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/zhrits/!svn/ver/4/phptrunk/internals/functions.php
+END

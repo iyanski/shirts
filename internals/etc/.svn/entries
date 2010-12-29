@@ -1,0 +1,58 @@
+8
+
+dir
+15
+http://svn.assembla.com/svn/zhrits/phptrunk/internals/etc
+http://svn.assembla.com/svn/zhrits
+
+
+
+2008-10-10T07:37:57.626225Z
+4
+iyanski
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e0e46c49-be69-4f5a-ad62-21024a331aea
+
+helper
+dir
+
+loader.class.php
+file
+
+
+
+
+2009-09-13T12:09:08.000000Z
+b9337bc89d110f98b5ca0b63ac8da320
+2008-10-10T07:37:57.626225Z
+4
+iyanski
+
+database
+dir
+
+helper.class.php
+file
+
+
+
+
+2009-09-13T12:09:08.000000Z
+edc8d6065894b863897d6cb51cd62a71
+2008-10-10T07:37:57.626225Z
+4
+iyanski
+
